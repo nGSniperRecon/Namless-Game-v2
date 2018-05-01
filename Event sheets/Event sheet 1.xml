@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 1</name>
+    <events>
+        <include>Hud</include>
+        <variable constant="0" name="sprint" sid="447135965858566" static="0" type="number">0</variable>
+        <variable constant="0" name="stamina" sid="295191592883007" static="0" type="number">0</variable>
+        <variable constant="0" name="Health" sid="158944638278968" static="0" type="number">4</variable>
+        <variable constant="0" name="Gold" sid="910872753857843" static="0" type="number">0</variable>
+        <variable constant="0" name="dead" sid="882677332269635" static="0" type="number">0</variable>
+        <variable constant="0" name="inventory_open" sid="840254342228193" static="0" type="number">0</variable>
+        <event-block sid="585444949720427">
+            <conditions>
+                <condition id="2" name="Key is down" sid="219315868624756" type="Keyboard">
+                    <param id="0" name="Key">87 (W)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="8Direction" id="7" name="Simulate control" sid="621666633619485" type="Character">
+                    <param id="0" name="Control">2</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="226475040773710">
+            <conditions>
+                <condition id="2" name="Key is down" sid="390038241615501" type="Keyboard">
+                    <param id="0" name="Key">65 (A)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="8Direction" id="7" name="Simulate control" sid="934834647780420" type="Character">
+                    <param id="0" name="Control">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="530369194861466">
+            <conditions>
+                <condition id="2" name="Key is down" sid="855517088522992" type="Keyboard">
+                    <param id="0" name="Key">83 (S)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="8Direction" id="7" name="Simulate control" sid="482161307256424" type="Character">
+                    <param id="0" name="Control">3</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="996939733797034">
+            <conditions>
+                <condition id="2" name="Key is down" sid="760246645395056" type="Keyboard">
+                    <param id="0" name="Key">68 (D)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="8Direction" id="7" name="Simulate control" sid="440066010466285" type="Character">
+                    <param id="0" name="Control">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="442775181916198">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="317567278224105" type="System" />
+            </conditions>
+            <actions>
+                <action id="-8" name="Scroll to object" sid="873647986188783" type="System">
+                    <param id="0" name="Object">Character</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="636476900142775">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="471477202806360" type="System" />
+            </conditions>
+            <actions />
+        </event-block>
+    </events>
+</c2eventsheet>
