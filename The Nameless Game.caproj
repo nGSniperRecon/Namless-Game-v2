@@ -173,7 +173,7 @@
         <object-type name="Coin" sid="489657313895620">
             <plugin id="Sprite" />
             <animation-folder>
-                <animation framecount="6" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="268421108252866" speed="5">
+                <animation framecount="6" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="268421108252866" speed="9">
                     <frame duration="1" hotspotX="0.529412" hotspotY="0.5" original-source="C:\Users\jhedges\Downloads\Gold Coin.png">
                         <collision-poly>
                             <point x="0.147059" y="0.147059" />
@@ -204,14 +204,14 @@
                             <point x="0.0714286" y="0.515152" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.111111" hotspotY="0.651515">
+                    <frame duration="1" hotspotX="-5.25" hotspotY="1.67647" original-source="C:\Users\plhuillier\Downloads\Gold Coin.png">
                         <collision-poly>
-                            <point x="0" y="0.0757576" />
-                            <point x="0.611111" y="0.106061" />
-                            <point x="0.166667" y="0.742424" />
-                            <point x="0.611111" y="1" />
+                            <point x="0" y="0.0374332" />
+                            <point x="1" y="0.122996" />
                             <point x="0" y="1" />
-                            <point x="0" y="0.742424" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="1" />
                         </collision-poly>
                     </frame>
                     <frame duration="1" hotspotX="0.642857" hotspotY="0.527778">
@@ -279,6 +279,20 @@
                 </animation>
             </animation-folder>
         </object-type>
+<<<<<<< HEAD
+        <object-type name="Portal_1" sid="403124217032781">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="530998815027413" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\plhuillier\Downloads\The Not So welcome Mat.png">
+                        <collision-poly>
+                            <point x="0.147059" y="0.0384615" />
+                            <point x="0.852941" y="0.0384615" />
+                            <point x="0.970588" y="0.5" />
+                            <point x="0.852941" y="0.961538" />
+                            <point x="0.147059" y="0.961538" />
+                            <point x="0.0294118" y="0.5" />
+=======
         <object-type name="Melee" sid="574730186950330">
             <plugin id="Sprite" />
             <animation-folder>
@@ -326,6 +340,7 @@
                             <point x="0.5" y="0.59375" />
                             <point x="0.375" y="0.625" />
                             <point x="0.40625" y="0.5" />
+>>>>>>> 03dbeb8a9f9878993ccd737eaa66aba582a82cae
                         </collision-poly>
                     </frame>
                 </animation>
