@@ -5,6 +5,14 @@
     <events>
         <event-group description="" sid="968767333376736" title="Gold">
             <sub-events>
+                <event-block sid="625488766611983">
+                    <conditions />
+                    <actions>
+                        <action id="0" name="Set text" sid="743906576755889" type="HudScore">
+                            <param id="0" name="Text">Gold</param>
+                        </action>
+                    </actions>
+                </event-block>
                 <event-block sid="158915262293216">
                     <conditions>
                         <condition id="1" name="Is overlapping another object" sid="408630875426000" type="Coin">
@@ -25,11 +33,18 @@
             <sub-events>
                 <event-block sid="503832523881745">
                     <conditions>
-                        <condition id="2" name="Is playing" sid="700354493258117" type="Heart">
-                            <param id="0" name="Animation">&quot;4Heart&quot;</param>
+                        <condition id="-14" name="Compare variable" sid="700354493258117" type="System">
+                            <param id="0" name="Variable">Health</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">4</param>
                         </condition>
                     </conditions>
-                    <actions />
+                    <actions>
+                        <action id="4" name="Set animation" sid="399272630545833" type="Heart">
+                            <param id="0" name="Animation">&quot;4Heart&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
                 </event-block>
                 <event-block sid="489217771876309">
                     <conditions>
@@ -47,9 +62,14 @@
                             <param id="0" name="Variable">Health</param>
                             <param id="1" name="Value">1</param>
                         </action>
-                        <action id="4" name="Set animation" sid="645443540389531" type="Heart">
-                            <param id="0" name="Animation">&quot;3Heart&quot;</param>
-                            <param id="1" name="From">1</param>
+                        <action id="11" name="Set collisions enabled" sid="448967015375610" type="Character">
+                            <param id="0" name="Collisions">0</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="555691017508795" type="System">
+                            <param id="0" name="Seconds">0.5</param>
+                        </action>
+                        <action id="11" name="Set collisions enabled" sid="271396635637851" type="Character">
+                            <param id="0" name="Collisions">1</param>
                         </action>
                     </actions>
                 </event-block>
@@ -69,6 +89,19 @@
                             <param id="0" name="Variable">Health</param>
                             <param id="1" name="Value">1</param>
                         </action>
+                        <action id="4" name="Set animation" sid="177676024315135" type="Heart">
+                            <param id="0" name="Animation">&quot;3Heart&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="11" name="Set collisions enabled" sid="272902406790820" type="Character">
+                            <param id="0" name="Collisions">0</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="331812513213794" type="System">
+                            <param id="0" name="Seconds">0.5</param>
+                        </action>
+                        <action id="11" name="Set collisions enabled" sid="192114105447532" type="Character">
+                            <param id="0" name="Collisions">1</param>
+                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="322862514472295">
@@ -86,6 +119,19 @@
                         <action id="-11" name="Subtract from" sid="679921760978454" type="System">
                             <param id="0" name="Variable">Health</param>
                             <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="949443601984283" type="Heart">
+                            <param id="0" name="Animation">&quot;2Heart&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="11" name="Set collisions enabled" sid="838158290861256" type="Character">
+                            <param id="0" name="Collisions">0</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="377348834283178" type="System">
+                            <param id="0" name="Seconds">0.5</param>
+                        </action>
+                        <action id="11" name="Set collisions enabled" sid="858100933024106" type="Character">
+                            <param id="0" name="Collisions">1</param>
                         </action>
                     </actions>
                 </event-block>
@@ -105,21 +151,48 @@
                             <param id="0" name="Variable">Health</param>
                             <param id="1" name="Value">1</param>
                         </action>
-                    </actions>
-                </event-block>
-            </sub-events>
-        </event-group>
-        <event-group description="" sid="547463275460626" title="Hud">
-            <sub-events>
-                <event-block sid="625488766611983">
-                    <conditions />
-                    <actions>
-                        <action id="0" name="Set text" sid="743906576755889" type="HudScore">
-                            <param id="0" name="Text">Gold</param>
+                        <action id="4" name="Set animation" sid="677453180923373" type="Heart">
+                            <param id="0" name="Animation">&quot;1Heart&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="11" name="Set collisions enabled" sid="457372543372785" type="Character">
+                            <param id="0" name="Collisions">0</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="611240068116397" type="System">
+                            <param id="0" name="Seconds">0.5</param>
+                        </action>
+                        <action id="11" name="Set collisions enabled" sid="579889253763828" type="Character">
+                            <param id="0" name="Collisions">1</param>
                         </action>
                     </actions>
                 </event-block>
+                <event-block sid="635347741018855">
+                    <conditions>
+                        <condition id="0" name="On collision with another object" sid="770707261551891" type="Sprite5">
+                            <param id="0" name="Object">Character</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="876470297689933" type="System">
+                            <param id="0" name="Variable">Health</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-11" name="Subtract from" sid="429834982739374" type="System">
+                            <param id="0" name="Variable">Health</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-9" name="Destroy" sid="590392543363097" type="Heart" />
+                        <action id="-16" name="Wait" sid="137750493506325" type="System">
+                            <param id="0" name="Seconds">2</param>
+                        </action>
+                        <action id="-26" name="Restart layout" sid="284764503178709" type="System" />
+                        <action id="-21" name="Reset global variables" sid="362527548676887" type="System" />
+                    </actions>
+                </event-block>
             </sub-events>
         </event-group>
+        <event-group description="" sid="547463275460626" title="Hud" />
+        <event-group description="" sid="906179244126853" title="Inventory " />
     </events>
 </c2eventsheet>

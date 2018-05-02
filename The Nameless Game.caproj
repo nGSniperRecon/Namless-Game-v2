@@ -24,7 +24,9 @@
     </used-plugins>
     <used-behaviors>
         <behavior author="Scirra" id="EightDir" version="1">8 Direction</behavior>
+        <behavior author="Scirra" id="Flash" version="1">Flash</behavior>
         <behavior author="Scirra" id="Pin" version="1">Pin</behavior>
+        <behavior author="Scirra" id="Timer" version="1">Timer</behavior>
         <behavior author="Scirra" id="solid" version="1">Solid</behavior>
     </used-behaviors>
     <used-effects />
@@ -100,12 +102,21 @@
         </object-type>
         <object-type name="Character" sid="619447515008334">
             <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="Invul" sid="895328254274473" type="boolean" />
+            </instance-variables>
             <behaviors>
                 <behavior-type name="8Direction" sid="107487900414868">
                     <behavior id="EightDir" />
                 </behavior-type>
                 <behavior-type name="Pin" sid="828210666017317">
                     <behavior id="Pin" />
+                </behavior-type>
+                <behavior-type name="Flash" sid="913123450789467">
+                    <behavior id="Flash" />
+                </behavior-type>
+                <behavior-type name="Timer" sid="614867066016483">
+                    <behavior id="Timer" />
                 </behavior-type>
             </behaviors>
             <animation-folder>
@@ -254,6 +265,58 @@
                 <animation framecount="2" loop="0" name="4Heart" pingpong="0" repeatcount="1" repeatto="0" sid="727416401023516" speed="5">
                     <frame duration="1" hotspotX="0.0930233" hotspotY="0.25" />
                     <frame duration="1" hotspotX="0.0930233" hotspotY="0.25" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Melee" sid="574730186950330">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="593975542674690" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\jhedges\Downloads\Inventory_Slot.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite3" sid="504162972252475">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="571860455007354" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\jhedges\Downloads\Inventory_Slot.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="SwordIcon" sid="682707424827574">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="457409141277395" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\jhedges\Downloads\Sword Icon.gif">
+                        <collision-poly>
+                            <point x="0.5" y="0.5" />
+                            <point x="0.5" y="0.25" />
+                            <point x="0.59375" y="0.40625" />
+                            <point x="0.59375" y="0.59375" />
+                            <point x="0.5" y="0.875" />
+                            <point x="0.5" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite7" sid="938976057871920">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="380696328699569" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\jhedges\Downloads\Bow Icon.gif">
+                        <collision-poly>
+                            <point x="0.4375" y="0.4375" />
+                            <point x="0.5" y="0.5625" />
+                            <point x="0.5" y="0.5" />
+                            <point x="0.5" y="0.5" />
+                            <point x="0.625" y="0.625" />
+                            <point x="0.5" y="0.59375" />
+                            <point x="0.375" y="0.625" />
+                            <point x="0.40625" y="0.5" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
