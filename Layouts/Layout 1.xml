@@ -87,6 +87,28 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
+                <instance type="Sprite6" uid="42">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>971.661437988</x>
+                        <y>505.482116699</y>
+                        <z>0</z>
+                        <width>34</width>
+                        <height>26</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>-1.560360789</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
                 <instance type="Character" uid="8">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>

@@ -355,7 +355,6 @@
                 </animation>
             </animation-folder>
         </object-type>
-<<<<<<< HEAD
         <object-type name="Sprite6" sid="659951117153692">
             <plugin id="Sprite" />
             <animation-folder>
@@ -373,8 +372,6 @@
                 </animation>
             </animation-folder>
         </object-type>
-=======
->>>>>>> 9e456e0a5b404d55316ddbabcc9e83db5b4f2aa6
     </object-folder>
     <families />
     <layout-folder>
