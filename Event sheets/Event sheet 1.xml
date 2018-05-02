@@ -4,11 +4,11 @@
     <name>Event sheet 1</name>
     <events>
         <include>Hud</include>
-        <variable constant="0" name="sprint" sid="447135965858566" static="0" type="number">0</variable>
-        <variable constant="0" name="stamina" sid="295191592883007" static="0" type="number">0</variable>
+        <variable constant="0" name="Sprint" sid="447135965858566" static="0" type="number">0</variable>
+        <variable constant="0" name="Stamina" sid="295191592883007" static="0" type="number">0</variable>
         <variable constant="0" name="Health" sid="158944638278968" static="0" type="number">4</variable>
         <variable constant="0" name="Gold" sid="910872753857843" static="0" type="number">0</variable>
-        <variable constant="0" name="dead" sid="882677332269635" static="0" type="number">0</variable>
+        <variable constant="0" name="Dead" sid="882677332269635" static="0" type="number">0</variable>
         <variable constant="0" name="inventory_open" sid="840254342228193" static="0" type="number">0</variable>
         <event-block sid="585444949720427">
             <conditions>

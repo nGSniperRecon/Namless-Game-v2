@@ -103,7 +103,8 @@
         <object-type name="Character" sid="619447515008334">
             <plugin id="Sprite" />
             <instance-variables>
-                <instance-variable name="Invul" sid="895328254274473" type="boolean" />
+                <instance-variable name="Stamina" sid="383040444835802" type="number" />
+                <instance-variable name="cur_stamina" sid="430901070568459" type="number" />
             </instance-variables>
             <behaviors>
                 <behavior-type name="8Direction" sid="107487900414868">
@@ -234,7 +235,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Sprite5" sid="898322066535939">
+        <object-type name="Enemy" sid="898322066535939">
             <plugin id="Sprite" />
             <behaviors>
                 <behavior-type name="Solid" sid="319756515998046">
@@ -276,7 +277,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Sprite3" sid="504162972252475">
+        <object-type name="Range" sid="504162972252475">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="571860455007354" speed="5">
@@ -301,7 +302,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Sprite7" sid="938976057871920">
+        <object-type name="BowIcon" sid="938976057871920">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="380696328699569" speed="5">
@@ -317,6 +318,37 @@
                             <point x="0.40625" y="0.5" />
                         </collision-poly>
                     </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="StaminaBar" sid="114045194152613">
+            <plugin id="TiledBg" />
+            <instance-variables>
+                <instance-variable name="max_width" sid="558123152151461" type="number" />
+            </instance-variables>
+            <texture />
+        </object-type>
+        <object-type name="Sprite3" sid="836479061122222">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="399433751550856" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite5" sid="308734396018009">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="936345250008295" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Box1" sid="650746631076842">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="969290747459225" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                 </animation>
             </animation-folder>
         </object-type>
