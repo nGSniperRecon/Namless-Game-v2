@@ -87,6 +87,28 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
+                <instance type="Portal_1" uid="32">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>978</x>
+                        <y>497</y>
+                        <z>0</z>
+                        <width>34</width>
+                        <height>26</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>-1.579173207</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
                 <instance type="Character" uid="8">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
@@ -684,11 +706,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>717.000732422</x>
-                        <y>497.91973877</y>
+                        <x>710.717651367</x>
+                        <y>492.100921631</y>
                         <z>0</z>
-                        <width>23.84161377</width>
-                        <height>22.079956055</height>
+                        <width>11.275439262</width>
+                        <height>10.442296982</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
