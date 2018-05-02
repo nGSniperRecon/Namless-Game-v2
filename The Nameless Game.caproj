@@ -251,20 +251,11 @@
         <object-type name="Heart" sid="256941650006002">
             <plugin id="Sprite" />
             <animation-folder>
-                <animation framecount="2" loop="0" name="1Heart" pingpong="0" repeatcount="1" repeatto="0" sid="355605167773505" speed="5">
-                    <frame duration="1" hotspotX="0.461538" hotspotY="0.333333" original-source="C:\Users\jhedges\Downloads\Heart DOne.gif" />
-                    <frame duration="1" hotspotX="0.461538" hotspotY="0.333333" />
-                </animation>
-                <animation framecount="2" loop="0" name="2Heart" pingpong="0" repeatcount="1" repeatto="0" sid="450885406847948" speed="5">
-                    <frame duration="1" hotspotX="0.0869565" hotspotY="0.333333" />
-                    <frame duration="1" hotspotX="0.0869565" hotspotY="0.333333" />
-                </animation>
-                <animation framecount="2" loop="0" name="3Heart" pingpong="0" repeatcount="1" repeatto="0" sid="885478901969469" speed="5">
-                    <frame duration="1" hotspotX="0.0606061" hotspotY="0.25" />
-                    <frame duration="1" hotspotX="0.0606061" hotspotY="0.25" />
-                </animation>
-                <animation framecount="2" loop="0" name="4Heart" pingpong="0" repeatcount="1" repeatto="0" sid="727416401023516" speed="5">
-                    <frame duration="1" hotspotX="0.0930233" hotspotY="0.25" />
+                <animation framecount="5" loop="0" name="4Heart" pingpong="0" repeatcount="1" repeatto="0" sid="727416401023516" speed="5">
+                    <frame duration="1" hotspotX="0.511628" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.307692" hotspotY="0.25" />
+                    <frame duration="1" hotspotX="0.173913" hotspotY="0.25" />
+                    <frame duration="1" hotspotX="0.121212" hotspotY="0.25" />
                     <frame duration="1" hotspotX="0.0930233" hotspotY="0.25" />
                 </animation>
             </animation-folder>
@@ -344,6 +335,7 @@
                 </animation>
             </animation-folder>
         </object-type>
+<<<<<<< HEAD
         <object-type name="Box1" sid="650746631076842">
             <plugin id="Sprite" />
             <instance-variables>
@@ -372,6 +364,8 @@
                 </animation>
             </animation-folder>
         </object-type>
+=======
+>>>>>>> 5043b6f14de95c7b4c130f9275b5b4c586c807ab
     </object-folder>
     <families />
     <layout-folder>
