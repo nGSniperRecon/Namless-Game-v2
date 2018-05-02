@@ -5,7 +5,7 @@
     <events>
         <include>Hud</include>
         <variable constant="0" name="Sprint" sid="447135965858566" static="0" type="number">0</variable>
-        <variable constant="0" name="Stamina" sid="295191592883007" static="0" type="number">0</variable>
+        <variable constant="0" name="Stamina" sid="295191592883007" static="0" type="number">15</variable>
         <variable constant="0" name="Health" sid="158944638278968" static="0" type="number">4</variable>
         <variable constant="0" name="Gold" sid="910872753857843" static="0" type="number">0</variable>
         <variable constant="0" name="Dead" sid="882677332269635" static="0" type="number">0</variable>
@@ -17,8 +17,13 @@
                 </condition>
             </conditions>
             <actions>
-                <action behavior="8Direction" id="7" name="Simulate control" sid="621666633619485" type="Character">
-                    <param id="0" name="Control">2</param>
+                <action id="-23" name="Move at angle" sid="621666633619485" type="Character">
+                    <param id="0" name="Angle">270</param>
+                    <param id="1" name="Distance">2</param>
+                </action>
+                <action id="4" name="Set animation" sid="164641446871782" type="Character">
+                    <param id="0" name="Animation">&quot;&quot;</param>
+                    <param id="1" name="From">1</param>
                 </action>
             </actions>
         </event-block>
@@ -29,8 +34,9 @@
                 </condition>
             </conditions>
             <actions>
-                <action behavior="8Direction" id="7" name="Simulate control" sid="934834647780420" type="Character">
-                    <param id="0" name="Control">0</param>
+                <action id="-23" name="Move at angle" sid="934834647780420" type="Character">
+                    <param id="0" name="Angle">180</param>
+                    <param id="1" name="Distance">2</param>
                 </action>
             </actions>
         </event-block>
@@ -41,8 +47,9 @@
                 </condition>
             </conditions>
             <actions>
-                <action behavior="8Direction" id="7" name="Simulate control" sid="482161307256424" type="Character">
-                    <param id="0" name="Control">3</param>
+                <action id="-23" name="Move at angle" sid="482161307256424" type="Character">
+                    <param id="0" name="Angle">90</param>
+                    <param id="1" name="Distance">2</param>
                 </action>
             </actions>
         </event-block>
@@ -53,8 +60,9 @@
                 </condition>
             </conditions>
             <actions>
-                <action behavior="8Direction" id="7" name="Simulate control" sid="440066010466285" type="Character">
-                    <param id="0" name="Control">1</param>
+                <action id="-23" name="Move at angle" sid="440066010466285" type="Character">
+                    <param id="0" name="Angle">0</param>
+                    <param id="1" name="Distance">2</param>
                 </action>
             </actions>
         </event-block>
