@@ -75,8 +75,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>-2</x>
-                        <y>0</y>
+                        <x>-5.567159653</x>
+                        <y>-0.09145546</y>
                         <z>0</z>
                         <width>999</width>
                         <height>602</height>
@@ -768,6 +768,31 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
+                <instance type="Box1" uid="41">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <maxwidth>70</maxwidth>
+                    </instance-variables>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>16.104167938</x>
+                        <y>23.924705505</y>
+                        <z>0</z>
+                        <width>12.593000412</width>
+                        <height>10.036999702</height>
+                        <depth>0</depth>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.5</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
             </instances>
             <effects />
         </layer>
@@ -832,8 +857,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>33.309234619</x>
-                        <y>35.193771362</y>
+                        <x>33.75579071</x>
+                        <y>33.630638123</y>
                         <z>0</z>
                         <width>64.761962891</width>
                         <height>18.562093735</height>
@@ -957,7 +982,7 @@
                 <instance type="StaminaBar" uid="39">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
-                        <hotspot>Left</hotspot>
+                        <hotspot>Top-left</hotspot>
                     </properties>
                     <instance-variables>
                         <max_width>70</max_width>
@@ -965,36 +990,14 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>4.918278694</x>
-                        <y>19.292694092</y>
+                        <x>4.613777161</x>
+                        <y>16.334085464</y>
                         <z>0</z>
                         <width>12.592727661</width>
                         <height>10.037029266</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Box1" uid="41">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>27.611644745</x>
-                        <y>19.265771866</y>
-                        <z>0</z>
-                        <width>45.147903442</width>
-                        <height>9.982704163</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotY>0</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
