@@ -117,11 +117,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>970</x>
-                        <y>497</y>
+                        <x>963.163635254</x>
+                        <y>490.163757324</y>
                         <z>0</z>
-                        <width>16.941074371</width>
-                        <height>16.941074371</height>
+                        <width>30.613599777</width>
+                        <height>30.613599777</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -768,31 +768,6 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Box1" uid="41">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <instance-variables>
-                        <maxwidth>70</maxwidth>
-                    </instance-variables>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>16.104167938</x>
-                        <y>23.924705505</y>
-                        <z>0</z>
-                        <width>12.593000412</width>
-                        <height>10.036999702</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
             </instances>
             <effects />
         </layer>
@@ -882,11 +857,11 @@
                         <x>10.342018127</x>
                         <y>4.296178818</y>
                         <z>0</z>
-                        <width>13</width>
+                        <width>43</width>
                         <height>12</height>
                         <depth>0</depth>
-                        <hotspotX>0.461538464</hotspotX>
-                        <hotspotY>0.333333343</hotspotY>
+                        <hotspotX>0.511627913</hotspotX>
+                        <hotspotY>0.5</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -985,7 +960,7 @@
                         <hotspot>Top-left</hotspot>
                     </properties>
                     <instance-variables>
-                        <max_width>70</max_width>
+                        <max_width>6</max_width>
                     </instance-variables>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
