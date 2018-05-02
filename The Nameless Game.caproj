@@ -355,6 +355,23 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="Sprite6" sid="659951117153692">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="945439646345639" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\plhuillier\Downloads\The Not So welcome Mat.png">
+                        <collision-poly>
+                            <point x="0.147059" y="0.0384615" />
+                            <point x="0.852941" y="0.0384615" />
+                            <point x="0.970588" y="0.5" />
+                            <point x="0.852941" y="0.961538" />
+                            <point x="0.147059" y="0.961538" />
+                            <point x="0.0294118" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
